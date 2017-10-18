@@ -1,0 +1,14 @@
+<h1>wuwuwuwuw</h2>
+
+<%= form_with do |form| %>
+  <%= form.label :email %>
+  <%= form.email_field :email %>
+
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.label :message %>
+  <%= form.text_area :message %>
+
+  <% form.submit "Send Message" %>
+<% end %>
